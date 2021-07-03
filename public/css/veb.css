@@ -1,0 +1,36 @@
+
+{расположение текста в среднем блоке}
+.w-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+.w-row:before, .w-row:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.w-row:after {
+    clear: both;
+}
+.w-col {
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    width: 100%;
+}
+.w-col-4 {
+    width: 33.3333%;
+}
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+

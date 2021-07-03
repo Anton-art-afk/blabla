@@ -1,0 +1,83 @@
+
+
+{размер}
+*,
+*::before,
+*::after{
+  margin:0;
+  padding:0;
+  box-sizing:inherit;
+}
+{лого}
+.nazvanie {
+  margin: 0;
+  display: block;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Lobster", cursive;
+  color: #fff;
+  padding: 0.5em 1em 0.5em 0.5em;
+}
+{позиция меню}
+header{
+  position:fixed;
+  width:100%;
+  z-index: 9999;
+ 
+  
+}
+{цвет меню}
+nav {
+  background-color: #191818;
+  
+}
+input[name="dorsipngto-gtonpos"] {
+  display: none;
+}
+{дизайн меню}
+@media (min-width: 767px) {
+  nav,
+  nav ul {
+  width: auto;
+  }
+header span.nazvanie,
+  label[for="dorsipngto-gtonpos"] {
+  display: none;
+  }
+nav {
+  box-shadow: none;
+  position: relative;
+  margin: 0;
+  padding: 0.5em;
+  }
+.dandunsone-makekalace {
+  display: inline-block;
+  }
+
+  .manurad-kodesyou-ngenem {
+  left: inherit;
+  border-bottom: none medium;
+  padding: 0.5em 0.8em;
+  }
+}
+{расположение пунктов меню}
+@media (max-width: 767px) {
+  .gupaden-peneursip nav li a {
+  left: -100%;
+  -moz-transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  -o-transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+}
+{цвет пунктов меню}
+.manurad-kodesyou-ngenem {
+  color: #fff;
+  position: relative;
+  display: block;
+  outline: 0;
+  text-decoration: none;
+}
+
+
